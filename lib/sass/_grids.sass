@@ -1,0 +1,17 @@
+// Screen
+// ======
+
+@import susy
+
+$susy: (columns: 3, gutters: 1/5, math: fluid, output: float, gutter-position: before, container: 1100px, container-position: center)
+//$susy: (columns: 3, gutters: 1/5, math: fluid, output: float, gutter-position: before, container: 1100px, container-position: center, debug: (image: show, color: rgba(#66f, .5), output: background, toggle: top right))
+
+.container
+    @include container()
+
+.post-container
+    @include span(2 first)
+
+.sidebar
+    @include span(1)
+
