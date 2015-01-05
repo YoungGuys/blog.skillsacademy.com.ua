@@ -1,7 +1,7 @@
 <div class="modal">
 
-	<div class="modal__bg">
-		<div class="modal__window" id="mod_xxx">
+	<div class="modal_bg">
+		<div class="modal_window" id="mod_xxx">
 			<form class="js-modal_form" method="POST" action="">
 				<div class="modal__header">
 					<h3 class="modal__title">Заголовок</h3>
