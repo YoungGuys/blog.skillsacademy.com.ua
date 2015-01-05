@@ -1,0 +1,25 @@
+<div class="modal">
+
+	<div class="modal__bg">
+		<div class="modal__window" id="mod_xxx">
+			<form class="js-modal_form" method="POST" action="">
+				<div class="modal__header">
+					<h3 class="modal__title">Заголовок</h3>
+				</div>
+				<div class="modal__content">
+					<p>
+						Якийсь тексті
+					</p>
+				</div>
+				<div class="modal__footer">
+					<input class="btn btn--full btn--green" type="submit" value="Відправити"/>
+				</div>
+			</form>
+			<button class="icon-close js-mod_close"></button>
+		</div>
+	</div>
+
+</div>
+
+</body>
+</html>

@@ -1,8 +1,35 @@
+
+$base-font-size: 16px !global
+$base-line-height: 29px !global
+$rhythm-unit: rem !global
+$rem-with-px-fallback: true !global
+
+
+@include establish-baseline
+
 body
-    line-height: 30px
-    font-size: 16px
+    //@include debug-vertical-alignment
+    //@include adjust-font-size-to
     font-family: 'Open Sans', Verdana, Tahoma, Arial, sans-serif
 
+p
+    @include hyphenation
+
+a
+    @include hover-link
+    color: #26bab2
+
+img
+    max-width: 100%
 
 
-
+.clearfix
+    &:after
+        content: ' '
+        width: 0
+        height: 0
+        display: table
+        font-size: 0
+        line-height: 0
+        visibility: hidden
+        clear: both
