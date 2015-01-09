@@ -34,9 +34,38 @@ img
         visibility: hidden
         clear: both
 
+
 .animate
     -webkit-transition: all .5s ease
     -moz-transition: all .5s ease
     -ms-transition: all .5s ease
     -o-transition: all .5s ease
     transition: all .5s ease
+
+
+li
+    margin-left: 20px
+
+    &:before
+        content: ' '
+        width: 6px
+        height: 6px
+        display: inline-block
+        margin-right: 15px
+        background-color: transparent
+        border: 2px solid #d9d2d2
+        border-radius: 100%
+
+
+input
+    height: 30px
+    padding-left: 45px
+    line-height: 30px
+    box-sizing: border-box
+    color: #929191
+    border: 2px solid #d9d7d7
+    border-radius: 2px
+    outline: 0
+
+    //&:focus
+

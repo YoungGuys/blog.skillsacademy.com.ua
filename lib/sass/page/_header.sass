@@ -1,0 +1,88 @@
+
+.header__logo
+    @include span(1 first)
+    @include margin-leader(1)
+    @include margin-trailer(1)
+    @include adjust-leading-to(2)
+    font-weight: 700
+
+.header__col
+    position: relative
+    @include span(2)
+    @include margin-leader(1)
+    @include margin-trailer(1)
+    @include adjust-font-size-to(13px,2)
+
+.menu
+    margin-left: -9%
+    &__item
+        position: relative
+        display: inline-block
+        margin-right: 30% * 100 / 776
+        text-transform: uppercase
+        color: #575660
+
+        &--active
+            &:before
+                content: ' '
+                position: absolute
+                top: 25%
+                left: 107%
+                width: 6px
+                height: 6px
+                display: block
+                background: #e56c74
+                border-radius: 100%
+
+
+.header__lng-s
+    float: right
+
+.search__field
+    display: none
+
+.header__lng
+    position: absolute
+    top: 25%
+    right: 0
+    margin: auto 20px
+    height: 28px
+    line-height: 2
+    overflow: hidden
+
+    &:hover
+        height: auto
+
+    &__item
+        display: block
+        color: #929191
+
+
+
+.page-preload
+    position: relative
+    line-height: 0
+    color: #fff
+
+    &__img
+        width: 100% !important
+
+.page-preload__info
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    width: 95%
+    margin: auto
+    display: table
+    text-align: center
+
+.page-preload__title
+    @include adjust-font-size-to(26px)
+
+.page-preload__author
+    position: relative
+    top: 5px
+    @include adjust-font-size-to(13px)
+    font-style: italic

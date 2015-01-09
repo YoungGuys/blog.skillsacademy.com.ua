@@ -1,66 +1,4 @@
 
-
-.header__logo
-    @include span(1 first)
-    @include margin-leader(1)
-    @include margin-trailer(1)
-    @include adjust-leading-to(2)
-    font-weight: 700
-
-.header__col
-    position: relative
-    @include span(2)
-    @include margin-leader(1)
-    @include margin-trailer(1)
-    @include adjust-leading-to(2)
-    @include adjust-font-size-to(13px,2)
-
-.menu
-    &__item
-        display: inline-block
-        margin: 0 2% 0 0
-        text-transform: uppercase
-        color: #575660
-
-.header__lng-s
-    float: right
-
-.search__field
-    display: none
-
-.header__lng
-    position: absolute
-    top: 0
-    bottom: 0
-    right: 0
-    margin: auto 20px
-    height: 28px
-    line-height: 2
-    overflow: hidden
-    &__item
-        display: block
-        color: #929191
-
-
-
-.page-preload
-    position: relative
-
-    &__img
-        width: 100% !important
-
-.page-preload__info
-    position: absolute
-    top: 0
-    left: 0
-    right: 0
-    bottom: 0
-    margin: auto
-    text-align: center
-
-.page-preload__title
-    @include margin-trailer(1)
-
 .post-container
     @extend .span-2f
     @include margin-leader(1)
@@ -72,13 +10,16 @@
 .post__title
     @include adjust-leading-to(2)
     @include adjust-font-size-to(26px,1.5)
+    color: #38383e
 
 .post__meta
     position: relative
     top: 10px
+    @include margin-trailer(1)
     @include adjust-font-size-to(13px)
 
 .post__author
+    margin-right: 280% * 100/710
     font-style: italic
     color: #929191
 
@@ -87,9 +28,9 @@
 
 .post__date
     color: #929191
+    float: right
 
 .post__img-box
-    @include margin-leader(1)
     @include margin-trailer(1)
 
 .post__content
@@ -100,73 +41,34 @@
 
 
 
+
 .pagination
     @include margin-trailer(2)
 
     &__item
         display: inline-block
-        margin: 0 18px
+        margin: 0 15px
         color: #929191
+        font-weight: 700
 
-        &--active
+        &--active,
+        &:hover
             color: #d9d7d7
 
+        &--next
+            width: 32px
+            height: 32px
+            margin: 0 25px
+            display: inline-block
+            vertical-align: middle
 
 
 
 
-.sidebar
-    @extend .span-1
-
-
-.widget
-    @include margin-trailer(2)
-.widget__title
-    font-weight: 700
 
 
 
 
-.footer
-    @include margin-leader(4)
-    @include margin-trailer(3)
-
-.register-form
-    @include margin-trailer(7)
-    text-align: center
-
-.register-form__title
-    @include margin-trailer(2)
-    @include adjust-font-size-to(26px,2)
-
-
-.footer__logo
-    @extend .span-1f
-
-.footer__copyright
-    @include margin-leader(1)
-
-
-.footer__links
-    @extend .span-2
-    @include adjust-font-size-to(13px)
-
-.footer__links__col-1
-    width: 33.5%
-    float: left
-
-.footer__links__col-2
-    width: 24.5%
-    float: left
-
-.footer__links__col-3
-    width: 39%
-    float: left
-    
-
-.footer__links__title
-    @include margin-trailer(1)
-    text-transform: uppercase
 
 .link--black
     display: block
@@ -180,10 +82,18 @@
     @extend .span-2f
     @extend .col-center
 
+    @include margin-leader(3)
+    color: #38383e
+
+
     h1, h2, h3, h4, h5, h6,
     p, img, ul, ol,
     video, iframe
         @include margin-trailer(1)
+
+    h1, h2, h3, h4, h5, h6
+        font-weight: 700
+        @include adjust-font-size-to(22px)
 
 blockquote
     @include margin-leader(1)
@@ -199,13 +109,28 @@ blockquote
     @include margin-leader(2)
     @include margin-trailer(2)
 
+    color: #66666e
 
+    img
+        width: 86px
+        height: 86px
+        display: block
+        float: left
+        margin-right: 55% * 100 / 710
+
+.author__col
+    overflow: hidden
+
+.author__name
+    font-style: italic
 
 
 
 .comment
     @extend .span-2f
     @extend .col-center
+
+
 
 
 
@@ -232,6 +157,9 @@ blockquote
     display: inline-block
 
 
+
+
+
 .about__col-1
     @extend .span-1f
 
@@ -250,3 +178,7 @@ blockquote
 
     &:first-child
         @include span(1.5 first)
+
+
+
+
