@@ -10,7 +10,7 @@
                 </h1>
                 <div class="header__col">
                     <nav class="menu">
-                        <a class="menu__item" href="#">NEWS</a>
+                        <a class="menu__item menu__item--active" href="#">NEWS</a>
                         <a class="menu__item" href="#">ANALYTICS</a>
                         <a class="menu__item" href="#">EVENTS</a>
                         <a class="menu__item" href="#">GALLERY</a>

@@ -1,13 +1,15 @@
     <footer class="footer">
-        <div class="container register-form">
-            <h4 class="register-form__title">
-                Studies from the best coaches are just in one step. It is almost <strong>free</strong>
-            </h4>
-            <input class="register-form__filed filed--bg_user" type="text" placeholder="Your Name"/>
-            <input class="register-form__filed filed--bg_mail" type="email" placeholder="Your E-mail here"/>
-            <input class="register-form__filed filed--bg_pass" type="password" placeholder="Create a Password"/>
-            <input type="submit" value="Let us go!"/>
-            <p class="register-form__hint">I have agreed to Skills Academy’s Terms of Policy</p>
+        <div class="register-form">
+            <div class="container register-form__container">
+                <h4 class="register-form__title">
+                    Studies from the best coaches are just in one step. It is almost <strong>free</strong>
+                </h4>
+                <input class="register-form__filed filed--bg_user" type="text" placeholder="Your Name"/>
+                <input class="register-form__filed filed--bg_mail" type="email" placeholder="Your E-mail here"/>
+                <input class="register-form__filed filed--bg_pass" type="password" placeholder="Create a Password"/>
+                <input class="register-form__filed filed--submit" type="submit" value="Let us go!"/>
+                <p class="register-form__hint">I have agreed to Skills Academy’s Terms of Policy</p>
+            </div>
         </div>
         <div class="container">
             <div class="footer__logo">

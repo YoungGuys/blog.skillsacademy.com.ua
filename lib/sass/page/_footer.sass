@@ -5,24 +5,15 @@
 
 
 .register-form
-    width: 100% //видалити container в footer
-    padding: 0 169% * 100 / 1440
+    //padding: 0 169% * 100 / 1440
     @include padding-trailer(5)
     @include margin-trailer(2)
     text-align: center
     background: url("../pic/bg-town.png") no-repeat 8% 100%
 
-    [type="submit"]
-        width: 160% * 100 / 1010
-        min-width: 100px
-        height: 60px
-        padding: 0
-        text-align: center
-        text-transform: uppercase
-        color: #fff
-        background: #dd434e
-        border: 2px solid #dd434e
-        @include adjust-font-size-to(16px)
+    &__container
+        position: relative
+
 
 
 .register-form__title
@@ -54,6 +45,16 @@
     &::-moz-placeholder,
     &::-webkit-input-placeholder
         color: #575660
+
+.filed--submit
+    width: 160% * 100 / 1010
+    min-width: 100px
+    padding: 0
+    text-align: center
+    text-transform: uppercase
+    color: #fff
+    background: #dd434e
+    border: 2px solid #dd434e
 
 
 .footer__logo

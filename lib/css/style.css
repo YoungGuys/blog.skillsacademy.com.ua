@@ -154,16 +154,6 @@ input {
   max-width: 68.75rem;
   margin-left: auto;
   margin-right: auto;
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjA1Ii8+PHN0b3Agb2Zmc2V0PSI4My4zMzMzMyUiIHN0b3AtY29sb3I9IiMyNjI2MjYiIHN0b3Atb3BhY2l0eT0iMC4wNSIvPjxzdG9wIG9mZnNldD0iODMuMzMzMzMlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA=='), url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuNSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0.05)), color-stop(83.33333%, rgba(38, 38, 38, 0.05)), color-stop(83.33333%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, 50% 0%, 50% 1, color-stop(100%, rgba(0, 0, 0, 0.5)), color-stop(100%, rgba(0, 0, 0, 0)));
-  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.05), rgba(38, 38, 38, 0.05) 83.33333%, rgba(0, 0, 0, 0) 83.33333%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.05), rgba(38, 38, 38, 0.05) 83.33333%, rgba(0, 0, 0, 0) 83.33333%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.05), rgba(38, 38, 38, 0.05) 83.33333%, rgba(0, 0, 0, 0) 83.33333%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
-  background-size: 35.29412%, 100% 29px;
-  background-origin: content-box, border-box;
-  background-clip: content-box, border-box;
-  background-position: left top;
 }
 /* line 12, ../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
 .container:after {
@@ -346,8 +336,6 @@ input {
 
 /* line 7, ../sass/page/_footer.sass */
 .register-form {
-  width: 100%;
-  padding: 0 11.73611%;
   padding-bottom: 145px;
   padding-bottom: 9.0625rem;
   margin-bottom: 58px;
@@ -355,24 +343,12 @@ input {
   text-align: center;
   background: url("../pic/bg-town.png") no-repeat 8% 100%;
 }
-/* line 15, ../sass/page/_footer.sass */
-.register-form [type="submit"] {
-  width: 15.84158%;
-  min-width: 100px;
-  height: 60px;
-  padding: 0;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
-  background: #dd434e;
-  border: 2px solid #dd434e;
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 29px;
-  line-height: 1.8125rem;
+/* line 14, ../sass/page/_footer.sass */
+.register-form__container {
+  position: relative;
 }
 
-/* line 28, ../sass/page/_footer.sass */
+/* line 19, ../sass/page/_footer.sass */
 .register-form__title {
   margin-bottom: 58px;
   margin-bottom: 3.625rem;
@@ -383,7 +359,7 @@ input {
   color: #545658;
 }
 
-/* line 34, ../sass/page/_footer.sass */
+/* line 25, ../sass/page/_footer.sass */
 .register-form__hint {
   position: absolute;
   right: 3.9604%;
@@ -397,7 +373,7 @@ input {
   line-height: 1.8125rem;
 }
 
-/* line 44, ../sass/page/_footer.sass */
+/* line 35, ../sass/page/_footer.sass */
 .register-form__filed {
   width: 23.76238%;
   height: 60px;
@@ -409,17 +385,29 @@ input {
   line-height: 29px;
   line-height: 1.8125rem;
 }
-/* line 52, ../sass/page/_footer.sass */
+/* line 43, ../sass/page/_footer.sass */
 .register-form__filed:-ms-input-placeholder, .register-form__filed:-moz-placeholder, .register-form__filed::-moz-placeholder, .register-form__filed::-webkit-input-placeholder {
   color: #575660;
 }
 
-/* line 59, ../sass/page/_footer.sass */
+/* line 49, ../sass/page/_footer.sass */
+.filed--submit {
+  width: 15.84158%;
+  min-width: 100px;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background: #dd434e;
+  border: 2px solid #dd434e;
+}
+
+/* line 60, ../sass/page/_footer.sass */
 .footer__logo {
   text-align: center;
 }
 
-/* line 64, ../sass/page/_footer.sass */
+/* line 65, ../sass/page/_footer.sass */
 .footer__copyright {
   margin-top: 29px;
   margin-top: 1.8125rem;
@@ -430,7 +418,7 @@ input {
   color: #929191;
 }
 
-/* line 70, ../sass/page/_footer.sass */
+/* line 71, ../sass/page/_footer.sass */
 .footer__links {
   font-size: 13px;
   font-size: 0.8125rem;
@@ -438,25 +426,25 @@ input {
   line-height: 1.8125rem;
 }
 
-/* line 75, ../sass/page/_footer.sass */
+/* line 76, ../sass/page/_footer.sass */
 .footer__links__col-1 {
   width: 33.5%;
   float: left;
 }
 
-/* line 79, ../sass/page/_footer.sass */
+/* line 80, ../sass/page/_footer.sass */
 .footer__links__col-2 {
   width: 24.5%;
   float: left;
 }
 
-/* line 83, ../sass/page/_footer.sass */
+/* line 84, ../sass/page/_footer.sass */
 .footer__links__col-3 {
   width: 39%;
   float: left;
 }
 
-/* line 88, ../sass/page/_footer.sass */
+/* line 89, ../sass/page/_footer.sass */
 .footer__links__title {
   margin-bottom: 29px;
   margin-bottom: 1.8125rem;
