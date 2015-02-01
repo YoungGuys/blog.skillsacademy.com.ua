@@ -100,7 +100,7 @@ img {
 }
 
 /* line 27, ../sass/_base.sass */
-.clearfix:after, .findus__container:after, .about__type:after, .owl-wrapper:after {
+.clearfix:after, .findus__container:after, .about__type:after, .company:after, .owl-wrapper:after {
   content: " ";
   width: 0;
   height: 0;
@@ -164,7 +164,7 @@ input {
 
 /* line 16, ../sass/_grids.sass */
 .span-1, .sidebar, .findus__col,
-.findus__post {
+.findus__post, .users-say__content__col {
   width: 29.41176%;
   float: left;
   margin-left: 5.88235%;
@@ -179,7 +179,7 @@ input {
 
 /* line 22, ../sass/_grids.sass */
 .span-1f, .footer__logo, .findus__col:first-child,
-.findus__post:first-child, .about__col-1 {
+.findus__post:first-child, .about__col-1, .users-say__content__col:first-child {
   width: 29.41176%;
   float: left;
   margin-left: 0;
@@ -390,7 +390,7 @@ input {
   color: #575660;
 }
 
-/* line 49, ../sass/page/_footer.sass */
+/* line 50, ../sass/page/_footer.sass */
 .filed--submit {
   width: 15.84158%;
   min-width: 100px;
@@ -402,12 +402,12 @@ input {
   border: 2px solid #dd434e;
 }
 
-/* line 60, ../sass/page/_footer.sass */
+/* line 61, ../sass/page/_footer.sass */
 .footer__logo {
   text-align: center;
 }
 
-/* line 65, ../sass/page/_footer.sass */
+/* line 66, ../sass/page/_footer.sass */
 .footer__copyright {
   margin-top: 29px;
   margin-top: 1.8125rem;
@@ -418,7 +418,7 @@ input {
   color: #929191;
 }
 
-/* line 71, ../sass/page/_footer.sass */
+/* line 72, ../sass/page/_footer.sass */
 .footer__links {
   font-size: 13px;
   font-size: 0.8125rem;
@@ -426,25 +426,25 @@ input {
   line-height: 1.8125rem;
 }
 
-/* line 76, ../sass/page/_footer.sass */
+/* line 77, ../sass/page/_footer.sass */
 .footer__links__col-1 {
   width: 33.5%;
   float: left;
 }
 
-/* line 80, ../sass/page/_footer.sass */
+/* line 81, ../sass/page/_footer.sass */
 .footer__links__col-2 {
   width: 24.5%;
   float: left;
 }
 
-/* line 84, ../sass/page/_footer.sass */
+/* line 85, ../sass/page/_footer.sass */
 .footer__links__col-3 {
   width: 39%;
   float: left;
 }
 
-/* line 89, ../sass/page/_footer.sass */
+/* line 90, ../sass/page/_footer.sass */
 .footer__links__title {
   margin-bottom: 29px;
   margin-bottom: 1.8125rem;
@@ -699,6 +699,189 @@ blockquote {
   width: 47.05882%;
   float: left;
   margin-left: 0;
+}
+
+/* line 186, ../sass/_screen.sass */
+.expert {
+  margin-bottom: 58px;
+  margin-bottom: 3.625rem;
+}
+
+/* line 189, ../sass/_screen.sass */
+.expert__title {
+  margin-top: 58px;
+  margin-top: 3.625rem;
+  margin-bottom: 29px;
+  margin-bottom: 1.8125rem;
+  font-size: 31px;
+  font-size: 1.9375rem;
+  line-height: 58px;
+  line-height: 3.625rem;
+}
+
+/* line 194, ../sass/_screen.sass */
+.ex-slider {
+  position: relative;
+}
+
+/* line 197, ../sass/_screen.sass */
+.ex-slider__content {
+  position: relative;
+  width: 60.45455%;
+  float: left;
+}
+
+/* line 202, ../sass/_screen.sass */
+.ex-slider__content__item {
+  position: absolute;
+  padding-right: 24.81203%;
+  padding-bottom: 29px;
+  padding-bottom: 1.8125rem;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+/* line 214, ../sass/_screen.sass */
+.ex-slider__content__item.is-active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* line 218, ../sass/_screen.sass */
+.ex-slider__experts {
+  font-weight: 700;
+  display: block;
+}
+
+/* line 222, ../sass/_screen.sass */
+.ex-slider__text {
+  font-style: italic;
+}
+
+/* line 225, ../sass/_screen.sass */
+.ex-slider__pic {
+  position: relative;
+  width: 50.90909%;
+  height: 360px;
+  left: 60.45455%;
+}
+
+/* line 231, ../sass/_screen.sass */
+.ex-slider__pic__item {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+/* line 241, ../sass/_screen.sass */
+.ex-slider__pic__item.is-active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* line 245, ../sass/_screen.sass */
+.ex-slider__control {
+  position: absolute;
+  bottom: 0;
+}
+
+/* line 250, ../sass/_screen.sass */
+.btn-slider__control {
+  width: 18px;
+  height: 1.8125rem;
+  display: inline-block;
+  background: blue;
+  cursor: pointer;
+}
+
+/* line 259, ../sass/_screen.sass */
+.company {
+  margin-bottom: 58px;
+  margin-bottom: 3.625rem;
+  margin: 0 4.09091%;
+}
+
+/* line 264, ../sass/_screen.sass */
+.company__item {
+  width: 16.66667%;
+  height: 90px;
+  float: left;
+  line-height: 90px;
+  text-align: center;
+}
+
+/* line 271, ../sass/_screen.sass */
+.company__item__pic {
+  max-height: 90px;
+}
+
+/* line 275, ../sass/_screen.sass */
+.users-say {
+  margin-top: 29px;
+  margin-top: 1.8125rem;
+  margin-bottom: 58px;
+  margin-bottom: 3.625rem;
+}
+
+/* line 279, ../sass/_screen.sass */
+.users-say__title {
+  margin-bottom: 58px;
+  margin-bottom: 3.625rem;
+  font-size: 26px;
+  font-size: 1.625rem;
+  line-height: 29px;
+  line-height: 1.8125rem;
+  text-align: center;
+}
+
+/* line 292, ../sass/_screen.sass */
+.users-say__content__item {
+  margin-bottom: 58px;
+  margin-bottom: 3.625rem;
+  font-size: 13px;
+  font-size: 0.8125rem;
+  line-height: 29px;
+  line-height: 1.8125rem;
+  color: #66666e;
+}
+
+/* line 297, ../sass/_screen.sass */
+.users-say__content__item__title {
+  font-weight: 700;
+}
+
+/* line 300, ../sass/_screen.sass */
+.users-say__content__item__info {
+  text-align: center;
+  line-height: 18px;
+}
+
+/* line 305, ../sass/_screen.sass */
+.users-say__content__item__info__pic {
+  border-radius: 100%;
+  margin-top: 10px;
+  margin-top: 0.60417rem;
+  margin-bottom: 10px;
+  margin-bottom: 0.60417rem;
+}
+
+/* line 310, ../sass/_screen.sass */
+.users-say__content__item__info__name {
+  display: block;
+  color: #de4751;
+}
+
+/* line 314, ../sass/_screen.sass */
+.users-say__content__item__info__job {
+  color: #929191;
 }
 
 /* 	Core Owl Carousel CSS File
