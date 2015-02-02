@@ -11,7 +11,7 @@
         require ('core/lib/php/autoloader.php');
         require ('config.php');
         define("DEV_MOD",true);
-
+// Dima was here
         $rout = new \Balon\Routing();
         $rout->loadPage();
 
