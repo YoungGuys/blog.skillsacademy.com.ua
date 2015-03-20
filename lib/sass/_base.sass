@@ -1,15 +1,16 @@
-
-$base-font-size: 16px !global
-$base-line-height: 29px !global
-$rhythm-unit: rem !global
-$rem-with-px-fallback: true !global
-
+//
+//$base-font-size: 16px !global
+//$base-line-height: 29px !global
+//$rhythm-unit: rem !global
+//$rem-with-px-fallback: true !global
+//
 
 @include establish-baseline
 
 body
     //@include debug-vertical-alignment
     //@include adjust-font-size-to
+    color: #66666e
     font-family: 'Open Sans', Verdana, Tahoma, Arial, sans-serif
 
 p
@@ -19,8 +20,21 @@ a
     @include hover-link
     color: #26bab2
 
+    &:hover
+        color: #f1656f
+        text-decoration: none
+
 img
     max-width: 100%
+    //width: 100%
+    height: auto
+
+button,
+input[type=submit]
+    cursor: pointer
+
+strong
+    font-weight: 700
 
 
 .clearfix
@@ -41,31 +55,3 @@ img
     -ms-transition: all .5s ease
     -o-transition: all .5s ease
     transition: all .5s ease
-
-
-li
-    margin-left: 20px
-
-    &:before
-        content: ' '
-        width: 6px
-        height: 6px
-        display: inline-block
-        margin-right: 15px
-        background-color: transparent
-        border: 2px solid #d9d2d2
-        border-radius: 100%
-
-
-input
-    height: 30px
-    padding-left: 45px
-    line-height: 30px
-    box-sizing: border-box
-    color: #929191
-    border: 2px solid #d9d7d7
-    border-radius: 2px
-    outline: 0
-
-    //&:focus
-

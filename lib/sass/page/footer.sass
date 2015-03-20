@@ -1,0 +1,89 @@
+
+.footer
+    @include margin-leader(4)
+    @include margin-trailer(3)
+
+
+.register-form
+    width: 100% //видалити container в footer
+    padding: 0 169% * 100 / 1440
+    @include padding-trailer(5)
+    @include margin-trailer(2)
+    text-align: center
+    background: url("../pic/bg-town.png") no-repeat 8% 100%
+
+    [type="submit"]
+        width: 160% * 100 / 1010
+        min-width: 100px
+        height: 60px
+        padding: 0
+        text-align: center
+        text-transform: uppercase
+        color: #fff
+        background: #dd434e
+        @include adjust-font-size-to(16px)
+
+
+.register-form__title
+    @include margin-trailer(2)
+    @include adjust-font-size-to(26px,2)
+    color: #545658
+
+
+.register-form__hint
+    position: absolute
+    right: 40% * 100 / 1010
+    width: 175px
+    float: right
+    color: #b9b7b7
+    line-height: 1.3rem
+    @include adjust-font-size-to(10px)
+
+
+.register-form__filed
+    width: 240% * 100 / 1010
+    height: 60px
+    margin: 0 7% * 100/1010
+    padding: 0 5px 0 90px
+    border-width: 3px
+    @include adjust-font-size-to(16px)
+
+    &:-ms-input-placeholder,
+    &:-moz-placeholder,
+    &::-moz-placeholder,
+    &::-webkit-input-placeholder
+        color: #575660
+
+
+.footer__logo
+    @extend .span-1f
+    text-align: center
+
+
+.footer__copyright
+    @include margin-leader(1)
+    @include adjust-font-size-to(10px)
+    color: #929191
+
+
+.footer__links
+    @extend .span-2
+    @include adjust-font-size-to(13px)
+
+    
+.footer__links__col-1
+    width: 33.5%
+    float: left
+
+.footer__links__col-2
+    width: 24.5%
+    float: left
+
+.footer__links__col-3
+    width: 39%
+    float: left
+
+
+.footer__links__title
+    @include margin-trailer(1)
+    text-transform: uppercase
